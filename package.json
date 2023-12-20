@@ -22,7 +22,7 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "htmlhint": "^0.10.1",
+    "htmlhint": "^0.15.2",
     "tempfile": "^2.0.0"
   },
   "devDependencies": {
