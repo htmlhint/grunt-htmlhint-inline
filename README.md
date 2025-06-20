@@ -3,12 +3,13 @@ grunt-htmlhint-inline
 
 [![Build Status](https://travis-ci.org/kazu69/grunt-htmlhint-inline.svg?branch=master)](https://travis-ci.org/kazu69/grunt-htmlhint-inline)
 
-[![NPM](https://nodei.co/npm/grunt-htmlhint-inline.png)](https://nodei.co/npm/grunt-htmlhint-inline/)
+[![npm](https://nodei.co/npm/grunt-htmlhint-inline.png)](https://nodei.co/npm/grunt-htmlhint-inline/)
 
-This plug-in template files of view ( for example ```.erb``` , etc.) or , you can linting using [htmlhint](https://github.com/yaniswang/HTMLHint) the html of the old type of ```php``` (view and logic are not separated ).
+This plug-in template files of view ( for example ```.erb``` , etc.) or , you can linting using [htmlhint](https://github.com/htmlhint/HTMLHint) the html of the old type of ```php``` (view and logic are not separated ).
 Removes the specific embedded code , it is intended to run the htmlhint as pure html.
 
 ## Getting Started
+
 This plugin requires Grunt `~0.4.5`
 
 If you haven't used [Grunt](https://gruntjs.com/) before, be sure to check out the [Getting Started](https://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](https://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
@@ -26,6 +27,7 @@ grunt.loadNpmTasks('grunt-htmlhint-inline');
 ## The "htmlhint-inline" task
 
 ### Overview
+
 In your project's Gruntfile, add a section named `htmlhint-inline` to the data object passed into `grunt.initConfig()`.
 
 ```js
@@ -47,6 +49,7 @@ grunt.initConfig({
 ### Options
 
 #### htmlhintrc
+
 Type: String Default value: null
 
 ```htmlhintrc``` file must be a valid JSON.
@@ -60,6 +63,7 @@ If there is specified in the task options, the options in this file will be over
 ```
 
 #### patterns
+
 Type: Array Default: []
 
 Enable the replacement by the pattern
@@ -111,6 +115,7 @@ grunt.initConfig({
     }
 });
 ```
+
 ## License
 
 MIT
